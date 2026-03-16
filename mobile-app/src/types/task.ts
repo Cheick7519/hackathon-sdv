@@ -6,4 +6,6 @@ export interface Task {
   owner: string;
   priority: TaskPriority;
   done: boolean;
+  dueDate?: string;
+  createdAt: number;
 }

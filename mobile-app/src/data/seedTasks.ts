@@ -7,6 +7,8 @@ export const seedTasks: Task[] = [
     owner: 'Dev 1',
     priority: 'must',
     done: false,
+    dueDate: '2026-03-17',
+    createdAt: 1742086800000,
   },
   {
     id: '2',
@@ -14,6 +16,8 @@ export const seedTasks: Task[] = [
     owner: 'Dev 2',
     priority: 'must',
     done: false,
+    dueDate: '2026-03-17',
+    createdAt: 1742087100000,
   },
   {
     id: '3',
@@ -21,6 +25,8 @@ export const seedTasks: Task[] = [
     owner: 'Dev 3',
     priority: 'must',
     done: false,
+    dueDate: '2026-03-16',
+    createdAt: 1742087400000,
   },
   {
     id: '4',
@@ -28,6 +34,8 @@ export const seedTasks: Task[] = [
     owner: 'Dev 4',
     priority: 'should',
     done: false,
+    dueDate: '2026-03-18',
+    createdAt: 1742087700000,
   },
   {
     id: '5',
@@ -35,5 +43,7 @@ export const seedTasks: Task[] = [
     owner: 'Dev 2',
     priority: 'could',
     done: false,
+    dueDate: '2026-03-18',
+    createdAt: 1742088000000,
   },
 ];
